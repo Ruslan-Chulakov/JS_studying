@@ -6,5 +6,7 @@ const colorPickerOptions = [
     { label: "indigo", color: "#3F51B5" },
   ];
   
-  const pink = colorPickerOptions.find(elem => elem.label === 'pink');
-  console.log( pink);
+  
+  console.log(colorPickerOptions.findIndex(({label}) =>  label === 'indigo'));
+  
+  console.log(colorPickerOptions.findIndex(({label}) =>  label === 'digit'));

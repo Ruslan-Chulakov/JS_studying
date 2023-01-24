@@ -1,43 +1,17 @@
 function filterArray(numbers, value) {
     const filteredNumbers = [];
     // Change code below this line
-
+// решение через форИч
     numbers.forEach(element => {
         if (element > value) {
             filteredNumbers.push(element);
           }
-    }
-         );
-
-
-
-
-
-
-
-
+    });
 
 // решение через фильтр
     // const values = numbers.filter(number => number > value);
     // console.log(values);
     // filteredNumbers.push(...values);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // было
 
